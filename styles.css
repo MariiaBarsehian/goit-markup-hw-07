@@ -1,65 +1,4 @@
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-  font-weight: 400;
-}
-:root {
-  --text-color-logo-dark: #000000;
-  --text-color-hover: #188ce8;
-  --shadow-color-grey: #e8e8e8;
-  --text-color-main: #212121;
-  --text-color-white: #ffffff;
-  --text-color-grey: #757575;
-  --background-color-main: #ffffff;
-  --background-color-dark: #2f303a;
-  --background-color-gray: #f5f4fa;
-  --background-color-blue: #2196f3;
-}
-
 /*сброс стилей*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-figer {
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
-}
-
-.section {
-  padding: 94px 0px;
-  text-align: center;
-}
-
-.container {
-  margin: 0px auto;
-  max-width: 1200px;
-  padding: 0px 15px;
-}
-
-.visualy-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-}
 
 .header {
   border-bottom: 1px solid #ececec;
@@ -787,17 +726,7 @@ img {
   pointer-events: auto;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 528px;
-  background: #ffffff;
-  transform: translate(-50%, -50%);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
-}
+
 .close-btm {
   position: absolute;
   width: 30px;
