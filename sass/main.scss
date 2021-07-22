@@ -1,5 +1,14 @@
+// UTILS
 @import "./utils/variables";
+@import "./utils/visualy-hidden";
+// BASE
 @import "./base/base";
 @import "./base/container";
-@import "./utils/visualy-hidden";
+// COMPONENTS
 @import "./cmponents/modal-btm";
+
+@import "./cmponents/title";
+//LAYOUT
+@import "./layout/header";
+@import "./layout/navigation";
+@import "./layout/footer";
