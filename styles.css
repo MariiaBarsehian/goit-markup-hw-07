@@ -7,12 +7,6 @@
 .features-section {
   padding-bottom: 47px;
 }
-.features-section-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
-}
 
 .features-section-list-item {
   list-style: none;
@@ -46,13 +40,6 @@
   padding-top: 47px;
 }
 
-.what-we-do-list {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
-}
 .what-we-do-list-item {
   margin-top: 30px;
   margin-left: 30px;
@@ -82,13 +69,6 @@
   background: var(--background-color-gray);
 }
 
-.team-members-list {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
-}
 .team-member-item {
   margin: 0;
   background-color: var(--background-color-main);
@@ -123,11 +103,7 @@
   color: var(--text-color-grey);
   margin-bottom: 16px;
 }
-.team-social-links-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .team-list-item-social-links {
   width: 44px;
   height: 44px;
@@ -141,13 +117,6 @@
   text-align: center;
 }
 
-.clients-list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: -30px;
-  margin-left: -30px;
-  background-position: center;
-}
 .clients-list-item {
   font-size: 36px;
   margin-top: 30px;
@@ -159,7 +128,7 @@
 /* ================footer================*/
 
 /*===================portfolio===================*/
-.type-of-works-buttons {
+.type-of-works-buttoms-list {
   font-family: inherit;
   list-style: none;
 
@@ -171,10 +140,6 @@
 }
 .type-of-works-list:not(:last-child) {
   margin-right: 8px;
-}
-.type-selection-btm {
-  border-radius: 4px;
-  padding: 6px 22px;
 }
 
 .works-example-card-container {
@@ -334,30 +299,6 @@
   transition-delay: 0ms;
 }
 
-.name {
-  font-style: 400px;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: var(--text-color-grey);
-}
-.phone {
-  font-style: 400px;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: var(--text-color-grey);
-}
-.mail {
-  font-style: 400px;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: var(--text-color-grey);
-}
 .comment {
   position: relative;
 
