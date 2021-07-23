@@ -1,4 +1,26 @@
 //MODAL WINDOW
+.order-btm {
+  padding: 10px 32px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  cursor: pointer;
+  color: var(--text-color-white);
+  background: var(--background-color-blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
+}
+.order-btm:hover,
+.order-btm:focus {
+  background-color: var(--text-color-hover);
+}
 .send-btm {
   display: flex;
   padding: 10px 55px;
@@ -23,7 +45,7 @@
 .send-btm:focus {
   background-color: var(--text-color-hover);
 }
-
+//FOOTER
 .subscribe-btm {
   display: flex;
   align-items: center;
