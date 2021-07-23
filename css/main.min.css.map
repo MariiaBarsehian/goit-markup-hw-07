@@ -12,7 +12,7 @@
         "../sass/cmponents/_contact-links.scss",
         "../sass/cmponents/_title.scss",
         "../sass/cmponents/_modal-btm.scss",
-        "../sass/cmponents/_buttoms.scss",
+        "../sass/cmponents/_buttons.scss",
         "../sass/cmponents/_icons.scss",
         "../sass/cmponents/_links.scss",
         "../sass/cmponents/_lists.scss",
