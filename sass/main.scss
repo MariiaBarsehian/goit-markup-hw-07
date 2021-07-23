@@ -5,9 +5,12 @@
 @import "./base/base";
 @import "./base/container";
 // COMPONENTS
-@import "./cmponents/modal-btm";
-
+@import "./cmponents/logo";
+@import "./cmponents/menu-link";
+@import "./cmponents/contact-links";
 @import "./cmponents/title";
+@import "./cmponents/modal-btm";
+@import "./cmponents/buttoms";
 //LAYOUT
 @import "./layout/header";
 @import "./layout/navigation";

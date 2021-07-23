@@ -1,0 +1,53 @@
+//MODAL WINDOW
+.send-btm {
+  display: flex;
+  padding: 10px 55px;
+  margin: 0px auto;
+  bottom: 0px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+  color: var(--text-color-white);
+  background: var(--background-color-blue);
+  border-radius: 4px;
+  border: none;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
+}
+.send-btm:hover,
+.send-btm:focus {
+  background-color: var(--text-color-hover);
+}
+
+.subscribe-btm {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+  padding: 10px 55px 10px 30px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  cursor: pointer;
+  color: var(--text-color-white);
+  background: var(--background-color-blue);
+  border-radius: 4px;
+  border: none;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0ms;
+}
+.send-btm,
+.subscribe-btm:hover,
+.send-btm,
+.subscribe-btm:focus {
+  background-color: var(--text-color-hover);
+}
