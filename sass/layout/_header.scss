@@ -3,13 +3,14 @@
 }
 .header-container {
   display: flex;
-}
-.header-container::after {
-  content: "";
-  display: block;
-  max-width: 1600px;
-  height: 1px;
-  background-color: #ececec;
-  margin: 0;
-  margin-top: 0px;
+
+  &::after {
+    content: "";
+    display: block;
+    max-width: 1600px;
+    height: 1px;
+    background-color: #ececec;
+    margin: 0;
+    margin-top: 0px;
+  }
 }

@@ -17,7 +17,6 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-
   position: absolute;
 }
 .checkbox-unchecked {
@@ -27,12 +26,13 @@
   border: 2px solid var(--text-color-logo-dark);
   border-radius: 2px;
   margin-right: 10px;
-}
-.checkbox-unchecked::before {
-  content: "";
-  display: block;
-  cursor: pointer;
-  margin-right: 7px;
+
+  &::before {
+    content: "";
+    display: block;
+    cursor: pointer;
+    margin-right: 7px;
+  }
 }
 .licens-checkbox:checked + .checkbox-unchecked {
   display: block;

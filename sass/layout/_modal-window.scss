@@ -9,10 +9,11 @@
   background-color: transparent;
   cursor: pointer;
   padding: 0px;
-}
-.close-btm:hover,
-.close-btm:focus {
-  fill: var(--text-color-hover);
+
+  &:hover,
+  &:focus {
+    fill: var(--text-color-hover);
+  }
 }
 .is-hidden {
   opacity: 0;

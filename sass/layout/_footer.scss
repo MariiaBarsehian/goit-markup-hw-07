@@ -37,6 +37,7 @@
   color: rgba(255, 255, 255, 0.6);
   display: block;
 }
+
 .footer-join-us-container {
   margin-top: 12px;
 }
@@ -49,9 +50,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.join-us-list-item:not(:last-child) {
-  margin-right: 10px;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .subscribe-container {
@@ -59,7 +61,6 @@
   margin-top: 12px;
   margin-left: 93px;
 }
-
 .subscribe-form {
   display: flex;
 }
@@ -77,8 +78,9 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0ms;
-}
-.subscribe-field-text:focus {
-  outline: none;
-  border: 1px solid rgba(33, 150, 243, 1);
+
+  &:focus {
+    outline: none;
+    border: 1px solid rgba(33, 150, 243, 1);
+  }
 }
