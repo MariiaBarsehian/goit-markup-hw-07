@@ -33,9 +33,10 @@
 
   &:focus {
     border: 1px solid rgba(33, 150, 243, 1);
-  }
-  &:focus + .modal-field-icon {
-    fill: var(--background-color-blue);
+
+    & + .modal-field-icon {
+      fill: var(--background-color-blue);
+    }
   }
 }
 .comment {

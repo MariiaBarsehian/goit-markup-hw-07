@@ -57,9 +57,9 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0ms;
-}
 
-.contact-link:hover .contact-icon,
-.contact-link:focus .contact-icon {
-  fill: var(--text-color-hover);
+  .contact-link:hover &,
+  .contact-link:focus & {
+    fill: var(--text-color-hover);
+  }
 }
