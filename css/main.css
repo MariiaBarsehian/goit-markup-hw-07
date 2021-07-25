@@ -244,7 +244,7 @@ body {
   border-radius: 4px;
 }
 
-.order-btm {
+.order-btn {
   padding: 10px 32px;
   font-family: inherit;
   font-weight: 700;
@@ -262,11 +262,11 @@ body {
   transition-delay: 0ms;
 }
 
-.order-btm:hover, .order-btm:focus {
+.order-btn:hover, .order-btn:focus {
   background-color: var(--text-color-hover);
 }
 
-.send-btm {
+.send-btn {
   display: flex;
   padding: 10px 55px;
   margin: 0px auto;
@@ -286,11 +286,11 @@ body {
   transition-delay: 0ms;
 }
 
-.send-btm:hover, .send-btm:focus {
+.send-btn:hover, .send-btn:focus {
   background-color: var(--text-color-hover);
 }
 
-.type-selection-btm {
+.type-selection-btn {
   display: inline-block;
   font-family: inherit;
   font-weight: 500;
@@ -309,13 +309,13 @@ body {
   transition-delay: 0ms;
 }
 
-.type-selection-btm:hover, .type-selection-btm:focus {
+.type-selection-btn:hover, .type-selection-btn:focus {
   color: var(--text-color-white);
   background-color: var(--text-color-hover);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.subscribe-btm {
+.subscribe-btn {
   display: flex;
   align-items: center;
   margin-left: 12px;
@@ -335,10 +335,10 @@ body {
   transition-delay: 0ms;
 }
 
-.send-btm,
-.subscribe-btm:hover,
-.send-btm,
-.subscribe-btm:focus {
+.send-btn,
+.subscribe-btn:hover,
+.send-btn,
+.subscribe-btn:focus {
   background-color: var(--text-color-hover);
 }
 
@@ -781,7 +781,7 @@ body {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.close-btm {
+.close-btn {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -794,7 +794,7 @@ body {
   padding: 0px;
 }
 
-.close-btm:hover, .close-btm:focus {
+.close-btn:hover, .close-btn:focus {
   fill: var(--text-color-hover);
 }
 
