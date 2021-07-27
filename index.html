@@ -18,21 +18,21 @@
 
 <body>
     <header class="header">
-    <div class="header-container container">
+    <div class="header__container container">
         <nav class="navigation">
             <a class="logo" href="#"><span class="logoWebBlue">Web</span>Studio</a>
             <ul class="menu">
-                <li class="current-page-list"> 
-                    <a class="current-page" href="./index.html">Студия</a></li>
-                <li class="current-page-list"> 
-                    <a class="menu-link" href="./portfolio.html">Портфолио</a></li>
-                <li class="current-page-list"> 
-                    <a class="menu-link" href="#contacts">Контакты</a></li>
+                <li class="menu__current-page-list"> 
+                    <a class="menu__current-page" href="./index.html">Студия</a></li>
+                <li class="menu__current-page-list"> 
+                    <a class="menu__link" href="./portfolio.html">Портфолио</a></li>
+                <li class="menu__current-page-list"> 
+                    <a class="menu__link" href="#contacts">Контакты</a></li>
             </ul>
         </nav>
         <ul class="menu">
-            <li class="menu-list">
-                <a class="contact-link" href="mail:info@devstudio.com">
+            <li class="menu__list">
+                <a class="menu__contact-link" href="mail:info@devstudio.com">
                 <span class="contact-icon-container">
                     <svg class="contact-icon" width="16" height="12">
                         <use href="./images/icons.svg#mail"></use>
@@ -40,8 +40,8 @@
                 </span>
                     <span>info@devstudio.com</span></a>
             </li>
-            <li class="menu-list">
-                <a class="contact-link" href="tel:+380961111111">
+            <li class="menu__list">
+                <a class="menu__contact-link" href="tel:+380961111111">
                 <span class="contact-icon-container">
                     <svg class="contact-icon" width="10" height="16">
                         <use href="./images/icons.svg#phone"></use>
@@ -113,35 +113,31 @@
         </section>
 
         <!-- Чем мы занимаемся -->
-        <section class="what-we-do-section section">
-        <div class="what-we-do-container container">
+        <section class="what-we-do-galary section container">
             <h2 class="what-we-do-title">Чем мы занимаемся</h2>
             <ul class="what-we-do-list">
-                <li class="what-we-do-list-item">
+                <li class="what-we-do-list__what-we-do-list-item">
                     <img src="./images/what_we_do/pc.jpg" alt="мы работаем с помощью компьютера" width="370"
                         height="294">
-                        <div class="item-container">
-                            <p class="item-descr">Десктопные приложения</p>
+                        <div class="what-we-do-list__item-container">
+                            <p class="what-we-do-list__item-descr">Десктопные приложения</p>
                         </div>
                 </li>
-                <li class="what-we-do-list-item">
+                <li class="what-we-do-list__what-we-do-list-item">
                     <img src="./images/what_we_do/tel.jpg" alt="мы работаем с помощью телефона" width="370"
                         height="294">
-                        <div class="item-container">
-                            <p class="item-descr">Мобильные приложения</p>
+                        <div class="what-we-do-list__item-container">
+                            <p class="what-we-do-list__item-descr">Мобильные приложения</p>
                         </div>
-
                 </li>
-                <li class="what-we-do-list-item">
+                <li class="what-we-do-list__what-we-do-list-item">
                     <img src="./images/what_we_do/laptop.jpg" alt="мы работаем с помощью планшета" width="370"
                         height="294">
-                        <div class="item-container">
-                            <p class="item-descr">Дизайнерские решения</p>
+                        <div class="what-we-do-list__item-container">
+                            <p class="what-we-do-list__item-descr">Дизайнерские решения</p>
                         </div>
-
                 </li>
             </ul>
-        </div>
         </section>
 
         <!-- Команда -->

@@ -1,5 +1,5 @@
 //HEAD SECTION
-.contact-link {
+.menu__contact-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -20,7 +20,7 @@
   &:focus {
     color: var(--text-color-hover);
   }
-  .contact-link,
+  .menu__contact-link,
   :current {
     color: var(--text-color-hover);
   }

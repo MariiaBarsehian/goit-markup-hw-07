@@ -11,11 +11,11 @@
   margin-left: auto;
 }
 
-.current-page-list:not(:last-child) {
+.menu__current-page-list:not(:last-child) {
   margin-right: 50px;
 }
 
-.current-page {
+.menu__current-page {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -40,7 +40,7 @@
   }
 }
 
-.menu-list:not(:last-child) {
+.menu__list:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -58,8 +58,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0ms;
 
-  .contact-link:hover &,
-  .contact-link:focus & {
+  .menu__contact-link:hover &,
+  .menu__contact-link:focus & {
     fill: var(--text-color-hover);
   }
 }
